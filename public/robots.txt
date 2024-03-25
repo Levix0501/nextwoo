@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://next-woo-pearl.vercel.app
+
+# Sitemaps
+Sitemap: https://next-woo-pearl.vercel.app/sitemap.xml
