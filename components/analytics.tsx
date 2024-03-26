@@ -1,4 +1,5 @@
 import { isDev } from '@/lib/env';
+import { GoogleTagManager } from '@next/third-parties/google';
 import Script from 'next/script';
 
 const Analytics = () => {
@@ -7,23 +8,7 @@ const Analytics = () => {
   const id = process.env.GOOGLE_TAG_ID;
   if (!id) return null;
 
-  return (
-    <>
-      <Script
-        strategy="lazyOnload"
-        src={`https://www.googletagmanager.com/gtag/js?id=${id}`}
-      ></Script>
-      <Script id="google-analytics" strategy="lazyOnload">
-        {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-    
-            gtag('config', '${id}');
-        `}
-      </Script>
-    </>
-  );
+  return <GoogleTagManager gtmId={id} />;
 };
 
 export default Analytics;

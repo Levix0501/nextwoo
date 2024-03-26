@@ -1,8 +1,8 @@
+import Analytics from '@/components/analytics';
+import HeaderNav from '@/components/layout/header-nav';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import '../styles/globals.css';
-import Analytics from '@/components/analytics';
-import HeaderNav from '@/components/layout/header-nav';
 
 const inter = Inter({ subsets: ['latin'] });
 
