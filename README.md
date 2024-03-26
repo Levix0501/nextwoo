@@ -5,7 +5,7 @@
 
 [![Star History Chart](https://api.star-history.com/svg?repos=Levix0501/next-woo&type=Date)](https://star-history.com/#Levix0501/next-woo&Date)
 
-## Features
+## Tech Stack
 - Next.js 14.1.4 (App Router)
 - React 18
 - TypeScript
