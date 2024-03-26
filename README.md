@@ -5,3 +5,5 @@
 - TypeScript
 - Tailwindcss
 - next-sitemap
+- Shadcn/ui
+- Google analytics
