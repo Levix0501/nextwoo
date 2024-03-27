@@ -10,6 +10,13 @@ NextWoo is a headless eCommerce application with Next.js(React) and WooCommerce.
 
 ## Getting Started
 
+### Install and activate the following WordPress plugins
+- [WooCommerce](https://wordpress.org/plugins/woocommerce) An ecommerce toolkit that helps you sell anything.
+- [WPGraphQL](https://wordpress.org/plugins/wp-graphql) GraphQL API for WordPress.
+- [WooGraphQL](https://github.com/wp-graphql/wp-graphql-woocommerce) Add WooCommerce support and functionality to your WPGraphQL server.
+
+### Start NextWoo Server
+
 1. Install dependencies.
    ```bash
    pnpm install
