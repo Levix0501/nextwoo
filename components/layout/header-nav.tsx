@@ -15,10 +15,10 @@ const HeaderNav = () => {
           </div>
 
           <div className="flex-1 flex justify-center sm:justify-start">
-            <Link href="/">
+            <Link href="/" aria-label="NextWoo Logo">
               <Image
                 src="/next-woo.png"
-                alt="NextWoo logo"
+                alt="NextWoo Logo"
                 width={145}
                 height={24}
                 priority
@@ -29,7 +29,7 @@ const HeaderNav = () => {
           <div className="hidden sm:block flex-1"></div>
 
           <div className="flex-1 flex justify-end">
-            <Link href="/cart">
+            <Link href="/cart" aria-label="cart">
               <ShoppingCart />
             </Link>
           </div>
