@@ -1,4 +1,4 @@
-import { AlignLeft, ShoppingCart } from 'lucide-react';
+import { AlignLeft, GithubIcon, ShoppingCartIcon } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -28,9 +28,18 @@ const HeaderNav = () => {
 
           <div className="hidden sm:block flex-1"></div>
 
-          <div className="flex-1 flex justify-end">
+          <div className="flex-1 flex justify-end space-x-3">
+            <a
+              href="https://github.com/Levix0501/next-woo"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="NextWoo github link"
+            >
+              <GithubIcon />
+            </a>
+
             <Link href="/cart" aria-label="cart">
-              <ShoppingCart />
+              <ShoppingCartIcon />
             </Link>
           </div>
         </div>
