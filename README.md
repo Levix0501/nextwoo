@@ -1,5 +1,7 @@
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/292fbeb23ebf49848a4ac843b590fd54)](https://app.codacy.com/gh/Levix0501/next-woo/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Levix0501_next-woo&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Levix0501_next-woo)
+![Static Badge](https://img.shields.io/badge/license-MIT-blue)
+
 ![NextWoo logo](https://raw.githubusercontent.com/Levix0501/next-woo/master/public/next-woo.png "this is NextWoo logo")  
 
 ## Star History
