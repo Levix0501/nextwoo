@@ -37,11 +37,12 @@ NextWoo is a headless eCommerce application with Next.js(React) and WooCommerce.
 ## Tech Stack
 - Next.js 14.1.4 (App Router)
 - WordPress (WooCommerce)
+- graphql/graphql-request
 - React 18
 - TypeScript
 - Tailwindcss
 - next-sitemap
-- Shadcn/ui
+- Shadcn-ui
 - Google analytics
 - react-icons
 - lucide-react
