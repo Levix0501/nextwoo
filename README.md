@@ -4,6 +4,9 @@
 
 ![NextWoo logo](https://raw.githubusercontent.com/Levix0501/next-woo/master/public/next-woo.png "this is NextWoo logo")  
 
+## Introduction
+NextWoo is a headless eCommerce application with Next.js(React) and WooCommerce.
+
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=Levix0501/next-woo&type=Date)](https://star-history.com/#Levix0501/next-woo&Date)
