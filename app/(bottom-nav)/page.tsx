@@ -1,4 +1,9 @@
+import Link from 'next/link';
+
 export default async function Home() {
-  const test = process.env.TEST;
-  return <div>{test}</div>;
+  return (
+    <div className="p-4">
+      <Link href="/about-nextwoo">About NextWoo</Link>
+    </div>
+  );
 }
