@@ -2,7 +2,10 @@
 
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/292fbeb23ebf49848a4ac843b590fd54)](https://app.codacy.com/gh/Levix0501/next-woo/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Levix0501_next-woo&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Levix0501_next-woo)
-![Static Badge](https://img.shields.io/badge/license-MIT-blue)
+[![MIT License](https://img.shields.io/badge/license-MIT-blue)](https://opensource.org/licenses/MIT)
+[![Nextjs](https://img.shields.io/badge/Nextjs-v14-black)](https://nextjs.org)
+[![WooCommerce](https://img.shields.io/badge/WordPress-WooCommerce-purple)](https://wordpress.org/plugins/woocommerce)
+
 
 ## Introduction
 
