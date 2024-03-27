@@ -3,6 +3,7 @@ import HeaderNav from '@/components/layout/header-nav';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import '../styles/globals.css';
+import BottomNav from '@/components/layout/bottom-nav';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -22,10 +23,7 @@ export default function RootLayout({
       <head>
         <Analytics />
       </head>
-      <body className={inter.className}>
-        <HeaderNav />
-        <main>{children}</main>
-      </body>
+      <body className={inter.className}>{children}</body>
     </html>
   );
 }

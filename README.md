@@ -14,3 +14,5 @@
 - next-sitemap
 - Shadcn/ui
 - Google analytics
+- react-icons
+- lucide-react
