@@ -1,4 +1,4 @@
-![NextWoo logo](https://raw.githubusercontent.com/Levix0501/next-woo/master/public/next-woo.png "this is NextWoo logo")  
+![Next Woo logo](https://raw.githubusercontent.com/Levix0501/next-woo/master/public/next-woo.png "this is Next Woo logo")  
 
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/292fbeb23ebf49848a4ac843b590fd54)](https://app.codacy.com/gh/Levix0501/next-woo/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Levix0501_next-woo&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Levix0501_next-woo)
@@ -9,7 +9,7 @@
 
 ## Introduction
 
-NextWoo is a headless eCommerce application with Next.js(React) and WooCommerce.
+Next Woo is a headless eCommerce application with Next.js(React) and WooCommerce.
 
 ## Getting Started
 
@@ -18,7 +18,7 @@ NextWoo is a headless eCommerce application with Next.js(React) and WooCommerce.
 - [WPGraphQL](https://wordpress.org/plugins/wp-graphql) GraphQL API for WordPress.
 - [WooGraphQL](https://github.com/wp-graphql/wp-graphql-woocommerce) Add WooCommerce support and functionality to your WPGraphQL server.
 
-### Start NextWoo Server
+### Start Next Woo Server
 
 1. Install dependencies.
    ```bash

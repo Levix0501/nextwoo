@@ -15,10 +15,10 @@ const Header = () => {
           </div>
 
           <div className="flex-1 flex justify-center sm:justify-start">
-            <Link href="/" aria-label="NextWoo Logo">
+            <Link href="/" aria-label="Next Woo Logo">
               <Image
                 src="/next-woo.png"
-                alt="NextWoo Logo"
+                alt="Next Woo Logo"
                 width={145}
                 height={24}
                 priority
@@ -33,7 +33,7 @@ const Header = () => {
               href="https://github.com/Levix0501/next-woo"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="NextWoo github link"
+              aria-label="Next Woo github link"
             >
               <GithubIcon />
             </a>

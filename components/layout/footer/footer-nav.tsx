@@ -17,7 +17,7 @@ export const footerMenu = [
     name: 'COMPANY INFO',
     subMenu: [
       {
-        subName: 'About NextWoo',
+        subName: 'About Next Woo',
         link: '/',
       },
       {

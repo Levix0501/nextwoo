@@ -3,9 +3,9 @@ import client from '@/graphql';
 import { QUERY_POST_BY_SLUG } from '@/graphql/queries';
 
 export const metadata = {
-  title: 'About NextWoo',
+  title: 'About Next Woo',
   description:
-    'NextWoo is a headless eCommerce application with Next.js(React) and WooCommerce',
+    'Next Woo is a headless eCommerce application with Next.js(React) and WooCommerce',
 };
 
 export default async function Page() {
@@ -15,7 +15,7 @@ export default async function Page() {
       content: string;
     };
   }>(QUERY_POST_BY_SLUG, {
-    slug: 'about-nextwoo',
+    slug: 'about',
   });
 
   return (
