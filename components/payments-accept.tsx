@@ -16,7 +16,7 @@ const payments = [
 
 const PaymentsAccept = () => {
   return (
-    <div className="flex">
+    <div className="flex flex-wrap">
       {payments.map((name) => (
         <Image
           key={name}

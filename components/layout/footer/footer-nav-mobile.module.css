@@ -1,0 +1,9 @@
+.menu-item[data-state='open'] .rotate-svg {
+  transform: rotate(180deg);
+  transition: transform 0.2s ease-in-out 0s;
+}
+
+.menu-item[data-state='closed'] .rotate-svg {
+  transform: rotate(0);
+  transition: transform 0.2s ease-in-out 0s;
+}
