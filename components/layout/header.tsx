@@ -2,9 +2,9 @@ import { AlignLeft, GithubIcon, ShoppingCartIcon } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 
-export interface HeaderNavProps {}
+export interface HeaderProps {}
 
-const HeaderNav = () => {
+const Header = () => {
   return (
     <header>
       <div className="h-[50px] sm:h-14"></div>
@@ -48,4 +48,4 @@ const HeaderNav = () => {
   );
 };
 
-export default HeaderNav;
+export default Header;
