@@ -18,10 +18,10 @@ const Footer = () => {
             © 2024 {SiteConfig.siteName} All Rights Reserved.
           </div>
           <div className="space-x-5 underline">
-            <Link href="/" className="hover:text-[#222]">
+            <Link href="/terms-conditions" className="hover:text-[#222]">
               Terms & Conditions
             </Link>
-            <Link href="/" className="hover:text-[#222]">
+            <Link href="/privacy-cookie-policy" className="hover:text-[#222]">
               Privacy & Cookie Policy
             </Link>
           </div>
