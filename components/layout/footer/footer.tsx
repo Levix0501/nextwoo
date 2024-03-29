@@ -9,7 +9,7 @@ const Footer = () => {
   const isMobile = useIsMobile();
 
   return (
-    <footer className="bg-[#fafafa] sm:mt-14 sm:pt-7">
+    <footer className="bg-[#fafafa] mt-14 sm:pt-7">
       <div className="sm:px-5 md:px-11 sm:mx-auto sm:max-w-screen-xl sm:space-y-9">
         {isMobile ? <FooterNavMobile /> : <FooterNav />}
 

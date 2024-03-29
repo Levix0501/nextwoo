@@ -24,15 +24,15 @@ export const footerMenu = [
     subMenu: [
       {
         subName: 'Shipping info',
-        link: '/',
+        link: '/shipping-information',
       },
       {
         subName: 'Returns',
-        link: '/',
+        link: '/return-policy',
       },
       {
         subName: 'Refund',
-        link: '/',
+        link: '/refund-policy',
       },
     ],
   },
@@ -41,11 +41,11 @@ export const footerMenu = [
     subMenu: [
       {
         subName: 'Contact us',
-        link: '/',
+        link: '/contact-us',
       },
       {
         subName: 'Payment & Tax',
-        link: '/',
+        link: '/payment-tax',
       },
     ],
   },
