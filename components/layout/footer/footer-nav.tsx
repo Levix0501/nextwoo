@@ -1,14 +1,7 @@
 import PaymentsAccept from '@/components/payments-accept';
 import SocialMedias from '@/components/social-medias';
+import { SiteConfig } from '@/lib/site-config';
 import Link from 'next/link';
-import {
-  FaFacebookF,
-  FaInstagram,
-  FaPinterest,
-  FaTiktok,
-  FaTwitter,
-  FaYoutube,
-} from 'react-icons/fa6';
 
 export interface FooterNavProps {}
 
@@ -17,8 +10,8 @@ export const footerMenu = [
     name: 'COMPANY INFO',
     subMenu: [
       {
-        subName: 'About Next Woo',
-        link: '/',
+        subName: `About ${SiteConfig.siteName}`,
+        link: '/about',
       },
       {
         subName: 'Blog',
