@@ -1,5 +1,5 @@
 import client from '@/graphql';
-import { QUERY_POST_BY_SLUG } from '@/graphql/queries';
+import { QUERY_POST_BY_SLUG } from '@/graphql/query/post';
 import { PostType } from '@/types/post';
 import BackHomeButton from '../back-home-button';
 import Prose from '../prose';
