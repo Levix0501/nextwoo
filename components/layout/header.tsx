@@ -10,7 +10,7 @@ import { ProductCategoryQuery, ProductCategoryType } from '@/types/category';
 export interface HeaderProps {}
 
 const Header = async () => {
-  const [_, res] = await to(
+  const [, res] = await to(
     client.request<ProductCategoryQuery>(QUERY_PRODUCT_CATEGORIES)
   );
   const categories: ProductCategoryType[] = res

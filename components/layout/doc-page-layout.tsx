@@ -20,7 +20,7 @@ export interface DocPageLayoutProps {
 }
 
 const DocPageLayout = async ({ title, slug }: DocPageLayoutProps) => {
-  const [_, doc] = await to(
+  const [, doc] = await to(
     client.request<{ post?: PostType }>(QUERY_POST_BY_SLUG, {
       slug,
     })

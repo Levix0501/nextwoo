@@ -51,7 +51,7 @@ export const footerMenu = [
   },
 ];
 
-const FooterNav = (props: FooterNavProps) => {
+const FooterNav = () => {
   return (
     <>
       <div className="flex justify-center">

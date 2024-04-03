@@ -12,7 +12,7 @@ import SocialMedias from '@/components/social-medias';
 
 export interface FooterNavMobileProps {}
 
-const FooterNavMobile = (props: FooterNavMobileProps) => {
+const FooterNavMobile = () => {
   return (
     <>
       {footerMenu.map(({ name, subMenu }) => (

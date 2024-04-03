@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export interface BackHomeButtonProps {}
 
-const BackHomeButton = (props: BackHomeButtonProps) => {
+const BackHomeButton = () => {
   return (
     <div className="sm:hidden">
       <Link
