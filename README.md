@@ -11,6 +11,10 @@
 
 Next Woo is a headless eCommerce application with Next.js(React) and WooCommerce.
 
+Live Site: https://next-woo.com
+
+Doc: https://doc.next-woo.com
+
 ## Getting Started
 
 ### Install and activate the following WordPress plugins
