@@ -1,44 +1,24 @@
+import { fetchCategories } from '@/api/category';
 import { AlignLeft, GithubIcon, ShoppingCartIcon } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 import CategoriesNav from '../categories-nav';
-import client from '@/graphql';
-import to from '@/lib/await-to';
-import { QUERY_PRODUCT_CATEGORIES } from '@/graphql/query/product-category';
-import { ProductCategoryQuery, ProductCategoryType } from '@/types/category';
 
 export interface HeaderProps {}
 
 const Header = async () => {
-  const [, res] = await to(
-    client.request<ProductCategoryQuery>(QUERY_PRODUCT_CATEGORIES)
-  );
-  const categories: ProductCategoryType[] = res
-    ? res.productCategories.nodes
-        .filter((item) => !item.ancestors && item.children.nodes.length > 0)
-        .map(({ slug, name, children }) => ({
-          slug,
-          name,
-          children: children.nodes
-            .filter((item) => item.image)
-            .map(({ slug, name, image }) => ({
-              slug,
-              name,
-              thumbnail: image?.sourceUrl!,
-            })),
-        }))
-    : [];
+  const categories = await fetchCategories();
 
   return (
     <header>
-      <div className="h-[50px] sm:h-14"></div>
-      <div className="h-[50px] sm:h-14 w-full fixed top-0 px-3 lg:px-6 z-10 bg-white border-b border-[#E5E5E5]">
+      <div className="h-[50px] md:h-14"></div>
+      <div className="h-[50px] md:h-14 w-full fixed top-0 px-3 lg:px-6 z-10 bg-white border-b border-[#E5E5E5]">
         <div className="h-full flex items-center justify-between">
-          <div className="flex-1 sm:hidden">
+          <div className="flex-1 md:hidden">
             <AlignLeft />
           </div>
 
-          <div className="max-[639px]:flex-1 flex justify-center sm:justify-start">
+          <div className="flex-1 flex justify-center md:justify-start">
             <Link href="/" aria-label="Next Woo Logo">
               <Image
                 src="/next-woo.png"
@@ -50,11 +30,7 @@ const Header = async () => {
             </Link>
           </div>
 
-          <div className="hidden sm:block flex-1 px-4">
-            <CategoriesNav categories={categories} />
-          </div>
-
-          <div className="max-[639px]:flex-1 flex justify-end space-x-2">
+          <div className="flex-1 flex justify-end space-x-2">
             <a
               href="https://doc.next-woo.com"
               target="_blank"
@@ -88,6 +64,12 @@ const Header = async () => {
             <Link href="/cart" aria-label="cart">
               <ShoppingCartIcon />
             </Link>
+          </div>
+        </div>
+
+        <div className="hidden md:block h-full w-full absolute top-0 left-0">
+          <div className="h-full flex justify-center items-center">
+            <CategoriesNav categories={categories} />
           </div>
         </div>
       </div>

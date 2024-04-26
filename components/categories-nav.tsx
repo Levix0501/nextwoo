@@ -5,7 +5,7 @@ import { ProductCategoryType } from '@/types/category';
 import { useState } from 'react';
 import * as Tabs from '@radix-ui/react-tabs';
 import Link from 'next/link';
-import { ChevronRightIcon } from 'lucide-react';
+import { ChevronDown, ChevronRightIcon } from 'lucide-react';
 import Image from 'next/image';
 
 export interface CategoriesNavProps {
@@ -24,17 +24,21 @@ const CategoriesNav = ({ categories }: CategoriesNavProps) => {
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
     >
-      <div className="cursor-pointer text-foreground/60 font-normal text-sm p-2 hover:text-foreground/80">
-        <span>Categories</span>
+      <div className="group cursor-pointer inline-flex h-10 w-max items-center justify-center rounded-md bg-background px-4 py-2 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground">
+        Categories
+        <ChevronDown
+          className="ml-1 h-3 w-3 transition duration-200 group-hover:rotate-180"
+          aria-hidden="true"
+        />
       </div>
 
       <div
         className={cn(
-          'absolute left-[-9999px] transition-opacity w-[640px] pt-1',
+          'absolute left-[-9999px] transition-opacity w-[768px] pt-1',
           {
             'opacity-0': !isOpen,
             'opacity-100': isOpen,
-            'sm:left-0 min-[720px]:left-10': isOpen,
+            'left-1/2 -translate-x-1/2': isOpen,
           }
         )}
       >
