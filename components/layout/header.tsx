@@ -67,7 +67,7 @@ const Header = async () => {
           </div>
         </div>
 
-        <div className="hidden md:block h-full w-full absolute top-0 left-0">
+        <div className="hidden md:block h-full absolute top-0 left-1/2 -translate-x-1/2">
           <div className="h-full flex justify-center items-center">
             <CategoriesNav categories={categories} />
           </div>
