@@ -53,7 +53,7 @@ const Header = async () => {
             </a>
 
             <a
-              href="https://github.com/Levix0501/next-woo"
+              href="https://github.com/Levix0501/nextwoo"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Next Woo github link"
