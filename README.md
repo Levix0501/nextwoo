@@ -1,8 +1,8 @@
-![Next Woo logo](https://raw.githubusercontent.com/Levix0501/next-woo/master/public/next-woo.png "this is Next Woo logo")  
+![Next Woo logo](https://raw.githubusercontent.com/Levix0501/nextwoo/master/public/next-woo.png "this is Next Woo logo")  
 
 
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/292fbeb23ebf49848a4ac843b590fd54)](https://app.codacy.com/gh/Levix0501/next-woo/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Levix0501_next-woo&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Levix0501_next-woo)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/efe25ecd812d4940bf873c1e6c0a4330)](https://app.codacy.com/gh/Levix0501/nextwoo/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Levix0501_nextwoo&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Levix0501_nextwoo)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue)](https://opensource.org/licenses/MIT)
 [![Nextjs](https://img.shields.io/badge/Nextjs-v14-black)](https://nextjs.org)
 [![WooCommerce](https://img.shields.io/badge/WordPress-WooCommerce-purple)](https://wordpress.org/plugins/woocommerce)
@@ -37,7 +37,7 @@ Doc: https://doc.next-woo.com
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Levix0501/next-woo&type=Date)](https://star-history.com/#Levix0501/next-woo&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=Levix0501/nextwoo&type=Date)](https://star-history.com/#Levix0501/nextwoo&Date)
 
 ## Tech Stack
 - Next.js 14.1.4 (App Router)
